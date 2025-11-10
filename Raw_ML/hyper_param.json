@@ -1,0 +1,12 @@
+{
+    "SVM": {
+        "DP1": {"C": [0.6], "gamma": [2]},
+        "DP2": {"C": [0.4], "gamma": [1]},
+        "DPZ": {"C": [0.1], "gamma": [0.8]}
+    },
+    "RF": {
+        "DP1": {"n_estimators":[400], "max_depth":[15], "min_samples_split":[80], "min_samples_leaf":[30], "max_features":[0.6]},
+        "DP2": {"n_estimators":[300], "max_depth":[6], "min_samples_split":[30], "min_samples_leaf":[150], "max_features":[0.3]},
+        "DPZ": {"n_estimators":[300], "max_depth":[5], "min_samples_split":[40], "min_samples_leaf":[160], "max_features":[0.7]}
+    }
+}

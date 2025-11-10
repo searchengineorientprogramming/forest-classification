@@ -1,0 +1,10 @@
+{
+    "SVM": {
+        "forest": {"C": [0.1], "gamma": [0.2]},
+        "nonforest": {"C": [0.8], "gamma": [0.05]}
+    },
+    "RF": {
+        "forest": {"n_estimators":[200], "max_depth":[5], "min_samples_split":[20], "min_samples_leaf":[120], "max_features":[0.4]},
+        "nonforest": {"n_estimators":[150], "max_depth":[7], "min_samples_split":[100], "min_samples_leaf":[200], "max_features":[0.5]}
+    }
+}

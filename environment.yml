@@ -1,0 +1,19 @@
+name: seismic-ml
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12.2
+  - numpy=1.26.4
+  - scipy=1.13.1
+  - pandas=2.2.3
+  - matplotlib=3.9.1
+  - seaborn=0.13.2
+  - scikit-learn=1.5.1
+  - obspy=1.4.1
+  - hvplot=0.11.1
+  - conda-forge::pyarrow>=14,<18
+  - conda-forge::brotli>=1.1,<1.2
+  - setuptools<81
+  - pip
+  # - pip:
+  #     - regex==2024.11.6   # if you actually need the 3rd-party "regex" package
